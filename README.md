@@ -47,3 +47,6 @@ Unlike most static site systems that are built around templating engines, with B
 
 Needs [ThoughtStorms](https://pypi.org/project/thoughtstorms/) and Python's Markdown, YAML and CSV libraries installed.
 
+## Update notes after forking
+* Converted the code from Python 2 to Python 3;
+* Added the generated folder with static files example/example to the repo to facilitate a quick peek at the results.
