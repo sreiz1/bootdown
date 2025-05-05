@@ -50,3 +50,4 @@ Needs [ThoughtStorms](https://pypi.org/project/thoughtstorms/) and Python's Mark
 ## Update notes after forking
 * Converted the code from Python 2 to Python 3;
 * Added the generated folder with static files example/example to the repo to facilitate a quick peek at the results.
+* Added a Flask runner for the example/example static files, run with python app-example.py, then in your browser open http://localhost:5000/index.html
