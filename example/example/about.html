@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="bs/css/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" href="bs/css/gallery.css" media="screen">
+    
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="bs/css/bootstrap-theme.min.css">
+        
+        <link rel="stylesheet" href="bs/css/main.css">
+
+        <script src="bs/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">An Example Site</a>
+        </div>
+        
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+<li><a href="about.html">About</a></li>
+<li><a href="tricks.html">Tricks</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="credits.html">Credits</a></li>
+</ul>
+          
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-12">
+<h2>About BootDown</h2>
+<p>BootDown combines Markdown and Bootstrap to allow you to make quick and dirty static HTML sites as quickly and easily as possible.</p>
+<p>Features</p>
+<ul>
+<li>Markdown - but extended with a short notation for divs with classes using [&nbsp;. See the source of this site for details.</li>
+<li>Bootstrap and BootSwatch </li>
+</ul>
+<h2>Philosophy</h2>
+<p>Basically it's a Markdown to HTML processor with some extra tricks added to it</p>
+<ul>
+<li>A header section that lets you define a menu, footer, projectname, bootswatch, head_extra (extra code to put in page headers)</li>
+<li>A "page-break" option (lines beginning with ////) so that your single .md file becomes a number of HTML pages</li>
+<li>A very light-weight markup for defining divs with classes and ids using &lbrack;.CLASSNAME#ID and .&rbrack;</li>
+<li>A markup for including CSV files as tables, YouTube videos, BandCamp albums and SoundCloud albums</li>
+</ul>
+<p>Unlike most static site systems that are built around templating engines, with BootDown you write both your page content, and the structure in a single source file. Using &lbrack;. .&rbrack; for divs. This gives you all the flexibility you need to layout your pages any way you like, within the BootStrap grid.</p>
+<h2>Aims and Features</h2>
+<ul>
+<li>To be the quickest, laziest way to make an "acceptable" flat site.</li>
+<li>Emphasis on the "acceptable". Comes with several off-the-shelf Bootstrap / <a href="https://bootswatch.com/">Bootswatches</a> to choose from.</li>
+<li>But strongly discourages you trying to write your own CSS or other styling. No templates! <ul>
+<li>(Well, actually you CAN put a custom template in but it's a hack.)</li>
+</ul>
+</li>
+<li><s>Single Python script</s> ... <ul>
+<li>it's now two Python scripts. I'm not sure how important this was. I think I'm going to refactor into several Python files to make cleaner.</li>
+</ul>
+</li>
+<li>Write your entire site in a single .md file. No faffing with managing multiple source files. <ul>
+<li>(Unless you really want to, in which case put further .md files in an extra_pages subdirectory.)</li>
+</ul>
+</li>
+<li>Suitable for landing pages, documentation sites, guides, handbooks, portfolios etc.</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+
+    <div class="container">
+      <hr>
+
+      <footer>
+        <p>Copyleft <a href="http://project.geekweaver.com/">Phil Jones</a>, 2014-2018</p>
+      </footer>
+      
+    </div> <!-- /container --> 
+    
+        <script src="bs/js/vendor/jquery-1.11.0.min.js"></script> 
+
+        <script src="bs/js/vendor/bootstrap.js"></script>
+        <script src="bs/js/vendor/gallery.js"></script>
+
+        
+        
+
+    </body>
+</html>
